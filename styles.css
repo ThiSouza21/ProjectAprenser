@@ -1,0 +1,202 @@
+body {
+  background-color: red;
+  font-family: var(--fonte-principal);
+  color: var(--cor-preto-font-principal);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
+}
+
+.wrapperContainerMain {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerApresentationContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.wrapperHeaderMain {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--cor-header);
+  z-index: 999;
+}
+
+.headerContent {
+  width: 100%;
+  max-width: 112.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.imageHeaderNavBar {
+  height: 4em;
+  width: 8em;
+}
+
+.headerNavBar {
+  display: flex;
+  flex-direction: row;
+}
+
+.listTopicsAprenser {
+  list-style-type: none;  
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+.listTopicsAprenser a {
+  font-size: clamp(.9em ,1.5vw, 1em);
+  border-radius: .4em;
+  padding: .7em;
+  border: 1px solid var(--cor-amarelo-principal);
+  text-decoration: none;
+  color: var(--cor-amarelo-principal);
+  transition: background-color 1.2s ease-out ;
+}
+
+.listTopicsAprenser a:hover {
+  background-color: #5a5959;
+}
+
+.wrapperContainerHeroMain {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: var(--hero-color);
+
+}
+
+.containerHeroContent {
+  position: relative;
+  width: 100%;
+  max-width: 98em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: clamp(50em ,100vh, 50em);
+  margin-top: 6em;
+  
+}
+
+.containerHeroContent img {
+  height: clamp(40em ,40vw, 46em);
+  display: flex;
+  align-self: flex-end;
+
+}
+
+.containerBoxContent {
+  padding: 4em 4em 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4em;
+}
+
+
+.containerBoxContent h1 {
+  font-size: clamp(2.4em, 3.5vw, 4.5em);
+}
+
+.btnAncors {
+  font-size: clamp(1.2em, 1.2vw, 1.8em);
+  background-color: var(--cor-amarelo-principal);
+  padding: .7em 1.5em;
+  text-decoration: none;
+  color: var(--cor-preto-font-principal);
+  font-weight: 600;
+  display: flex;
+  width: min(85%, 8em);
+  justify-content: center;
+  border-radius: .3em;
+  transition: all .6s ease-in-out 100ms;
+}
+
+.ancorKnowMore:hover {
+  transform: scale(1.2) translateX(1em);
+  box-shadow: 0px 0px 70px -25px #000;
+}
+
+.wrapperContainerCoursesMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:1.35em 2em 1.35em 2em;
+  background-color: #fff;
+}
+
+.containerCoursesContent {
+  width: 100%;
+  max-width: 98em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+  height: clamp(50em, 100svh - 46em, 62.5em);
+}
+
+.boxContainerCourses {
+  display: flex;
+  justify-content: center;
+  gap: 1.6em;
+}
+
+.bannerCourses {
+  border: 1px solid #ECEFF4;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  width: clamp(25em, 30%, 31.25em)
+}
+
+
+.imageBannerCourses {
+  width: 100%;
+}
+
+.bannerCoursesContent {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2em;
+  gap: 1em;
+}
+
+.ancorsCourses {
+  width: min(52%, 11em);
+
+}
+
+.ancorsCourses:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 70px -25px #000;
+}
+
+.containerCoursesContent h2 {
+  font-size: clamp(1.4em, 1.3vw, 1.8em);
+}
+
+.bannerCoursesContent  h3 {
+  font-size: clamp(1em, 1.1vw, 1.8em);
+}
+
+.bannerCoursesContent  p {
+  font-size: clamp(1em, 1vw, 1.8em);
+}
