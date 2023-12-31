@@ -359,6 +359,10 @@ body {
     align-items: center;
   }
 
+  .listTopicsAprenser {
+    padding-bottom: 2em;
+  }
+
   .headerContent {
     flex-direction: column;
     justify-content: center;
