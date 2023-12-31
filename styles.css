@@ -354,8 +354,37 @@ body {
 
 @media screen and (max-width: 655px) {
 
+  .wrapperHeaderMain {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerContent {
+    flex-direction: column;
+    justify-content: center;
+    gap:2em;
+
+  }
+
+  .containerCoursesContent {
+    height: clamp(88.6em, 90svh, 88em);
+  }
+  
+  .boxContainerCourses {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bannerCourses {
+    width: min(29em, 88%);
+  }
+
+  .ancorsCourses {
+    width: min(68%, 11em);
+  }
+
   .containerSchoolContent {
-    height: clamp(50em, 100svh, 56.5em);
+    height: clamp(54em, 100svh, 56.5em);
   }
 
   .containerHeroContent img {
