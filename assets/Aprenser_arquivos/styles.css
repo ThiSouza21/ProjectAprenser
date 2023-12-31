@@ -219,7 +219,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: clamp(30em, 100svh, 34.5em);
+  height: clamp(30em, 60svh - 46em, 32.5em);
   overflow-y: hidden;
   padding: 1.4em 2em 0;
   gap: 4em;
@@ -309,74 +309,27 @@ body {
 /*//?  Versão Tablet   */
 
 
-@media screen and (max-width: 1040px) {
-  
-  .containerHeroContent{
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .imageContainerBoxContent {
+@media screen and (max-width: 1041px) {
+  /* .imageContainerBoxContent {
     position: absolute;
     right: -15em;
     bottom: 0;
   }
 
   .containerBoxContent {
-    position: relative;
-    padding: 6em 4em 0 2em;
-    width: clamp(40ch, 49ch, 52ch);
+    justify-content: flex-start;
+
   }
+
+  .containerHeroContent {
+    justify-content: flex-start;
+    padding: 0;
+  } */
+
+
   
-  .titleContainerBoxContent {
-   font-size: clamp(2.4em, 3.5vw, 4.5em);
-  }
 
-  .containerSchoolContent {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
-    justify-content: flex-end;
-    height: clamp(50em, 75svh, 62.5em);
-    position: relative;
-  }
 
-  .boxContainerSchoolContent {
-    padding: 4em 0 0 0;
-  }
 
-  .imageContainerSchool {
-    position: absolute;
-    bottom: 0;
-    left: -5em;
-  }
-}
 
-@media screen and (max-width: 655px) {
-
-  .containerSchoolContent {
-    height: clamp(50em, 100svh, 56.5em);
-  }
-
-  .containerHeroContent img {
-    right: -4em;
-    height: clamp(24em, 70vw, 35em);
-  }
-
-  .imageContainerSchool {
-    position: absolute;
-    bottom: 0;
-    left: -12em;
-    height: 70vw;
-    height: 26em;
-    height: clamp(20em, 92vw, 28em);
-  }
-
-  .containerSchoolContent {
-    align-items: center;
-  }
-
-  .boxContainerSchoolContent {
-    width: clamp(85%, 40ch, 90%);
-  }
 }

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Federo&family=Italiana&family=Maven+Pro:wght@400;500;600;700;800;900&family=Viaoda+Libre&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --hero-color: linear-gradient(#FFFFFF, #FFFF38);
+  --cor-amarelo-principal: #FED001;
+  --cor-azul-principal: #003464;
+  --cor-header: #2A2A2A;
+  --cor-preto-font-principal: #0A0A0A;
+  --fonte-principal: 'Maven Pro';
+}
