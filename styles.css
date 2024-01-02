@@ -361,6 +361,7 @@ body {
 
   .listTopicsAprenser {
     padding-bottom: 2em;
+    gap: clamp(0.5em, 1.1em, 2em);
   }
 
   .headerContent {
@@ -383,12 +384,23 @@ body {
     width: min(29em, 88%);
   }
 
+  .linkListTopics {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
   .ancorsCourses {
     width: min(68%, 11em);
+    text-align: center;
   }
 
   .containerSchoolContent {
-    height: clamp(54em, 100svh, 56.5em);
+    height: clamp(58em, 100svh, 60.5em);
+  }
+
+  .containerHeroContent {
+    margin-top: 12.2em;
   }
 
   .containerHeroContent img {
